@@ -16,10 +16,26 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c9680fa-9b52-4c24-ab8f-6d0324b5238a)
   )
+  (fp_poly (pts
+      (arc (start -0.2 -2.2) (mid -1.614214 -1.614214) (end -2.2 -0.2))
+      (arc (start -3.4 -0.2) (mid -2.462742 -2.462742) (end -0.2 -3.4))
+    ) (layer "F.Paste") (width 0.12) (fill solid) (tstamp 0f4116b9-b13f-49a2-8e89-585d3f7ce5c1))
+  (fp_poly (pts
+      (arc (start 0.2 2.2) (mid 1.614214 1.614214) (end 2.2 0.2))
+      (arc (start 3.4 0.2) (mid 2.462742 2.462742) (end 0.2 3.4))
+    ) (layer "F.Paste") (width 0.12) (fill solid) (tstamp 3391f17e-6a8e-4ee4-a0d9-e29798294d4a))
+  (fp_poly (pts
+      (arc (start 2.2 -0.2) (mid 1.614214 -1.614214) (end 0.2 -2.2))
+      (arc (start 0.2 -3.4) (mid 2.462742 -2.462742) (end 3.4 -0.2))
+    ) (layer "F.Paste") (width 0.12) (fill solid) (tstamp 3a3585ed-8ea1-440e-8af7-9fc68ed77aaf))
+  (fp_poly (pts
+      (arc (start -2.2 0.2) (mid -1.614214 1.614214) (end -0.2 2.2))
+      (arc (start -0.2 3.4) (mid -2.462742 2.462742) (end -3.4 0.2))
+    ) (layer "F.Paste") (width 0.12) (fill solid) (tstamp a6120931-3ac6-487a-a4e2-3808b8d2b1b6))
   (fp_circle (center 0 0) (end 3.75 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp f9ab1f1d-cdfb-4b69-891d-4e26bdcb6aa1))
   (fp_circle (center 0 0) (end 3.81 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 14e17b36-ab91-40a9-b3f0-7e1e22105b1e))
   (pad "1" thru_hole circle (at 0 0) (size 5 5) (drill 4.2) (layers *.Cu *.Mask) (tstamp 449511e3-8641-4e94-9bb8-e60448ddae2c))
-  (pad "1" smd circle (at 0 0) (size 7 7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e02f49a6-cee8-43e8-8ffd-ae2ee7b76532))
+  (pad "1" smd circle (at 0 0) (size 7 7) (layers "F.Cu" "F.Mask") (tstamp e02f49a6-cee8-43e8-8ffd-ae2ee7b76532))
   (model "${KICAD6_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMST-3.3mm_H10mm_9774100960.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 0.9 0.9 1.25))
