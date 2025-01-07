@@ -54,4 +54,9 @@
   (pad "24" smd roundrect (at 5.75 -1.075 180) (size 0.4 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ca088d57-c335-4abe-9cae-9b8292b445d4))
   (pad "MP" smd roundrect (at -7.4 0 180) (size 2.4 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 6481a9aa-5dd1-4378-940d-dc73eff78b59))
   (pad "MP" smd roundrect (at 7.4 0 180) (size 2.4 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 9f643f3a-bedc-482d-b7e6-a367df26a204))
+  (model "${KIPRJMOD}/lib/model/AFC11-S24ICC-00.step"
+    (offset (xyz -8.25 -1 0.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
