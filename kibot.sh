@@ -58,7 +58,8 @@ sed -i \
 	-e '/^.*TF.CreationDate.*$/d' \
 	-e '/^.*G04 Created by KiCad.* date .*$/d' \
 	-e '/^.*DRILL file .* date .*$/d' \
-	./gen/*/*.{gbr,drl}
+	-e '/^.*CreationDate": .*$/d' \
+	./gen/*/*.{g,drl}*
 
 # remove garbage changes from schematics.pdf
 sed -i '/[/]CreationDate.*$/d' ./gen/schematics.pdf
